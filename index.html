@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projeto 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script type="module" src="./app.js"></script>
+    <div class="container">
+        <canvas id="gl-canvas" width="512" height="512"></canvas>          
+    </div>
+    <div class="legend_background"></div>
+    <div class="legend_description">
+        <p>Curve Function: <a id="curve_function">B-Spline</a></p>
+        <ul class="list"><li>
+            <li><a class="option">f:</a> Change Curve Function</li>
+            <li><a class="option">z:</a> Stop Drawing Curve</li>
+            <li><a class="option">C:</a> Delete Curves</li>
+            <li><a class="option">L:</a> <a id="lines">Hide Lines</a></li>
+            <li><a class="option">P:</a> <a id="segment_points">Hide Segment Points</a></li>
+            <li><a class="option">+/-:</a> Add/Subtract Segment Points</li>
+            <li><a class="option">SPACE:</a> <a id="pause_play">Pause animation</a></li>
+            <li><a class="option">>/<:</a> Faster/Slower Animation</li>
+            <li><a class="option">1:</a> <a id="echos">Enable Echos</a></li>
+            <li><a class="option">T/t:</a> Add/Subtract Echos</li>
+            <li><a class="option">2:</a> <a id="gravity">Enable Gravity</a></li>
+            <li><a class="option">3:</a> <a id="black_white">Enable Black&White</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
