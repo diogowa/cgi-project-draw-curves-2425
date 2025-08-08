@@ -1,11 +1,13 @@
 # WebGL Curve Visualisation
 
-This project was developed as part of my university course in Computer Graphics and Interfaces. The main objective was to create a **WebGL application** capable of generating and visualising cubic B-spline curves in real time using a combination of **JavaScript** and **GLSL shaders**.
+This project was developed for the **Computer Graphics and Interfaces** (CGI) course at NOVA FCT during the 2024/25 academic year.
+
+The main objective was to implement a WebGL application that could generate and visualise cubic B-Spline, Catmull-Rom and Bézier curves.
 
 
-## Project objective
+## Animation:
 
-The application enables users to create and visualise cubic B-spline, Catmull-Rom and Bézier curves. Each curve is visualised using a GLSL program capable of producing the intermediate points of a given curve. This program receives an integer index as an attribute, which marks the position of the vertex on the curve.
+Each curve is animated to move and bump against the edges of the screen. Each curve is made up of several control points, each of which has a random velocity. Various **VFX** can be applied to a curve, such as echoes, black and white, and gravity.
 
 
 ## Screenshots
@@ -17,8 +19,12 @@ The application enables users to create and visualise cubic B-spline, Catmull-Ro
 
 ## Technologies used
 
-- **WebGL** — Rendering curves
-- **JavaScript** — Logic, animation, and user interaction
-- **GLSL** — Shaders for curve point generation and rendering
-- **HTML/CSS** — Interface layout
+- **WebGL 2.0**
+- **JavaScript**
+- **HTML / CSS**
+
+
+## Author
+
+Diogo Matias, @diogowa
 
