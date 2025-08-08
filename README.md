@@ -5,7 +5,7 @@ This project was developed for the **Computer Graphics and Interfaces** (CGI) co
 The main objective was to implement a WebGL application that could generate and visualise cubic B-Spline, Catmull-Rom and Bézier curves.
 
 
-## Animation:
+## Animation
 
 Each curve is animated to move and bump against the edges of the screen. Each curve is made up of several control points, each of which has a random velocity. Various **VFX** can be applied to a curve, such as echoes, black and white, and gravity.
 
